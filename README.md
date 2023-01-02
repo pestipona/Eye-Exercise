@@ -2,13 +2,9 @@
 
 ![](eyes.png)
 
-## Learning Outcome Addressed:
+## I. Project Description:
 
-* Use ```JavaScript``` to set **web page styles**.
-
-## Follow Mouse Movement:
-
-In ```JavaScript```, ```events``` are **actions** that happen on a **web page**. They **can be anything** from a **mouse moving** to a user **typing in** some text. ```Events``` happen to **most elements** on the **DOM**. These ```events``` are a **good way** to **bind a code** to **user actions**. For example, consider a **web page** that has a **form** with a **"Submit" button**. You can **bind** the **mouse button click** to that **button** and **submit** the **form data** upon that **click**.
+This project demonstrates an important concept used frequently in ```JavaScript``` called ```events```.  In ```JavaScript```, ```events``` are **actions** that happen on a **web page**. They **can be anything** from a **mouse moving** to a user **typing in** some text. ```Events``` happen to **most elements** on the **DOM**. These ```events``` are a **good way** to **bind a code** to **user actions**. For example, consider a **web page** that has a **form** with a **"Submit" button**. You can **bind** the **mouse button click** to that **button** and **submit** the **form data** upon that **click**.
 
 ```Mouse events``` are a popular way to **bind** the **DOM elements** to **events**. Some of **these events** are as follows:
 
@@ -16,9 +12,8 @@ In ```JavaScript```, ```events``` are **actions** that happen on a **web page**.
 * ```mousemove```: Triggered when the **mouse moves over an element**
 * ```mouseleave```: Triggered when **mouse the leaves an element**
 
-In the **starter code** for this activity, the **mouse movement** ```event``` is used to **update the position** of the ```"eye" element``` displayed on the page. You can walk through the code to see how this all works.
+This program makes use of the elements as shown above by making the eyes follow the mouse movement of the user. The **mouse movement** ```event``` is used to **update the position** of the ```"eye" element``` displayed on the page. 
 
-You task is to add a second "eye" element and have that element follow the mouse position on the screen using the mouse events.
 
 ## Solution:
 
