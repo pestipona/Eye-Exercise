@@ -15,88 +15,30 @@ This project demonstrates an important concept used frequently in ```JavaScript`
 This program makes use of the elements as shown above by making the eyes follow the mouse movement of the user. The **mouse movement** ```event``` is used to **update the position** of the ```"eye" element``` displayed on the page. 
 
 
-## Solution:
+## II. How to Run:
 
-### CSS Code:
+The first step would be to **clone the repository** to your local machine by going to the **Project's ReadMe Page** and selecting ```<> Code``` and copy the **project URL** which is the following.
 
-```css
-body {
-    margin: 0;
-    padding: 0;
-    background: #14495e;
-}
-
-.eyes {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-}
-.eye {
-    width: 240px;
-    height: 120px;
-    background: #fff;
-    display: inline-block;
-    margin: 40px;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-}
-.ball {
-    width: 80px;
-    height: 80px;
-    background: #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-}
-
+```text
+https://github.com/pestipona/Eye-Exercise.git
 ```
 
-### HTML Code:
+The next steps to **clone the repository** would depend on the local machine's **Operating System (OS)** whether it be ```Windows```, ```Mac```, or ```Linux```. Some of the steps or commands may vary but there are some similarities. Here is an overall guide based on an article posted in GitHub Docs.
 
-```html
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-        <title>Eyes</title>
-    </head>
+[Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?platform=linux)
 
-    <body>
-        <div class="eyes">
-            <div class="eye">
-                <div class="ball"></div>
-            </div>
+After **cloning the repository** navigate to the **directory location** of the files for the project. Look for the ```index.html``` file which is the HTML file of the program. Open any web browser such as ```Chrome``` or ```Firefox``` and drag and drop the ```index.html``` file into the browser. This initializes and runs the program.
 
-            <div class="eye">
-                <div class="ball"></div>
-            </div>
-        </div>
-        <script src="./eyes.js"></script>
-    </body>
-</html>
-```
+Simply move the mouse pointer across the web page and observe that the eye follows the movememnt of the mouse. To close the program just close the web browser running the application.
 
-### JavaScript Code:
+https://user-images.githubusercontent.com/88525094/208303936-4fc4509a-b9b4-46eb-b387-d113cf36eed9.mp4
 
-```javascript
-const balls = document.getElementsByClassName('ball');
+Make sure also that the ```eyes.js``` file is in the same directory of the ```index.html``` file for the program to work.
 
-document.onmousemove = (event) => {
-    const x = (event.clientX * 100) / window.innerWidth + '%';
-    const y = (event.clientY * 100) / window.innerHeight + '%';
+## III. Roadmap for future improvements:
 
-    for (let i=0; i<2; i++) {
-        balls[i].style.left = x;
-        balls[i].style.top = y;
-        balls[i].transform = 'translate(-' + x + ',-' + y + ')';
-    }
-};
-```
+At the moment there is not much I'm thinking to improve on this project cause it simply demonstrates the use of mouse events to trigger an action. Such as the eyes following the mouse movement. But I can perhaps enhance and improve the graphics by adding some kinds of animation like making the eyes blink or adding a face instead of just the eye, or even a menu to select which kind of face to display from animals, to objects, persons or a mythological creature.  
 
-### Web Output:
+## IV. License Information:
 
-![](eyes.png)
+The following [document](./LICENSE) shows licensing information from MIT about the source code of the program.
