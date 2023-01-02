@@ -31,7 +31,7 @@ After **cloning the repository** navigate to the **directory location** of the f
 
 Simply move the mouse pointer across the web page and observe that the eye follows the movememnt of the mouse. To close the program just close the web browser running the application.
 
-[](Eye_Movement.mp4)
+https://user-images.githubusercontent.com/88525094/210278688-4a00931d-b6ff-4736-823c-a599a712887d.mp4
 
 Make sure also that the ```eyes.js``` file is in the same directory of the ```index.html``` file for the program to work.
 
