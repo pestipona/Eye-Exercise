@@ -1,5 +1,7 @@
 # Eye Exercise:
 
+![](eyes.png)
+
 ## Learning Outcome Addressed:
 
 * Use ```JavaScript``` to set **web page styles**.
