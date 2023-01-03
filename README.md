@@ -37,8 +37,10 @@ Make sure also that the ```eyes.js``` file is in the same directory of the ```in
 
 ## III. Roadmap for future improvements:
 
-At the moment there is not much I'm thinking to improve on this project cause it simply demonstrates the use of mouse events to trigger an action. Such as the eyes following the mouse movement. But I can perhaps enhance and improve the graphics by adding some kinds of animation like making the eyes blink or adding a face instead of just the eye, or even a menu to select which kind of face to display from animals, to objects, persons or a mythological creature.  
+At the moment there is not much I'm thinking to improve on this project cause it simply demonstrates the use of mouse events to trigger an action. Such as the eyes following the mouse movement. But I can perhaps enhance and improve the graphics by adding some kinds of animation like making the eyes blink or adding a face instead of just the eye, or even a menu to select which kind of face to display from animals, to objects, persons or a mythological creature.
+
+I'm also thinking of adding some audio to make the graphics more interesting.
 
 ## IV. License Information:
 
-The following [document](./LICENSE) shows licensing information from MIT about the source code of the program.
+The following [document](./LICENSE) shows licensing information from MIT about some portions of the source code of the program.
