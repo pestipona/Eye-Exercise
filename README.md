@@ -17,7 +17,9 @@ This program makes use of the elements as shown above by making the eyes follow 
 
 ## II. How to Run:
 
-The first step would be to **clone the repository** to your local machine by going to the **Project's ReadMe Page** and selecting ```<> Code``` and copy the **project URL** which is the following.
+The first step would be to fork the repository to your own GitHub account.
+
+The next step would be to **clone the repository** to your local machine by going to the **Project's ReadMe Page** and selecting ```<> Code``` and copy the **project URL** which is the following.
 
 ```text
 https://github.com/pestipona/Eye-Exercise.git
