@@ -1,6 +1,6 @@
 # Eye Exercise:
 
-![](eyes.png)
+![](ScreenShots_&_Video/eyes.png)
 
 ## I. Project Description:
 
