@@ -19,13 +19,9 @@ This program makes use of the elements as shown above by making the eyes follow 
 
 The first step would be to fork the repository to your own GitHub account.
 
-The next step would be to **clone the repository** to your local machine by going to the **Project's ReadMe Page** and selecting ```<> Code``` and copy the **project URL** which is the following.
+The next step would be to **clone the repository** to your local machine by going to the **Project's ReadMe Page** and selecting ```<> Code``` and copy the **project URL**.
 
-```text
-https://github.com/pestipona/Eye-Exercise.git
-```
-
-The next steps to **clone the repository** would depend on the local machine's **Operating System (OS)** whether it be ```Windows```, ```Mac```, or ```Linux```. Some of the steps or commands may vary but there are some similarities. Here is an overall guide based on an article posted in GitHub Docs.
+Cloning your own repository would depend on your local machine's **Operating System (OS)** whether it be ```Windows```, ```Mac```, or ```Linux```. Some of the steps or commands may vary but there are some similarities. Here is an overall guide based on an article posted in GitHub Docs.
 
 [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?platform=linux)
 
