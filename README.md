@@ -41,4 +41,4 @@ I'm also thinking of adding some audio to make the graphics more interesting.
 
 ## IV. License Information:
 
-The following [document](./LICENSE) shows licensing information from MIT about some portions of the source code of the program.
+The following [document](./LICENSE) shows licensing information from MIT about the free open source code of the program.
